@@ -1,0 +1,51 @@
+ul {
+  list-style-type: none;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+.checked {
+  text-decoration: line-through !important;
+  color: grey;
+}
+
+
+.notchecked{
+  text-decoration: none !important;
+  color: black;
+}
+
+.btn-padding-custom{
+  padding: 0 3% !important;
+}
+
+.taskText{
+  max-width:175px !important;
+  word-wrap:break-word !important;
+}
+
+/* .btn-margin-custom{
+  margin-left: 15px !important;
+} */
+
+.buttons-custom-1 {
+  display: flex !important;
+  justify-content: space-between !important;
+}
+
+.custom-card:hover{
+  background-color: 	lightgray !important;
+}
+
+.custom-card{
+  padding-top: 20px;
+  width:100%;
+  height:60px;
+  margin-bottom:10px;
+  border-radius: 5px 20px;
+}
